@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    color: black;
+    font-family: sans-serif;
+    background-color: rgb(232, 244, 248);
+}
+
+#mall_name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    
+    
+}
+
+h3{
+    text-align: center;
+    font-weight: 900;
+    word-spacing: 3px;
+}
+
+.city{
+    text-align: center;
+    border: 1px solid black;
+    padding:8px;
+    float: right;
+    margin-top: -60px;
+    background-color: #ffe342;
+    border-radius: 15px;
+    
+}
+
+#location{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.filter{
+    float: left;
+    background-color: #B8860B;
+    box-sizing:border-box;
+    border: 1px solid red;
+    margin:5px 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.logo{
+    float: left;
+    height: 70px;
+    clear: right;
+    margin-top: -20px;
+    margin-left: 0px;
+    position:absolute;
+    background-color: lightyellow;
+    border-radius: 10px;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    margin-top: 45px;
+    border: 2px solid rgb(219, 74, 74);
+    border-radius: 3px;
+    
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 20px;
+    text-align: center;
+    float: left;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: serif;
+    letter-spacing: 2px;
+    background-color: rgba(14, 13, 13, 0.959);
+    width: 100%;
+}
+
+nav a:hover{
+    background-color: rgb(228, 23, 23);
+}
+
+
+
+.carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    /* background: #8C8; */
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    /* content: counter(carousel-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+
+
+dl{
+    float: right;
+    text-align: center;
+    margin:15px;
+    padding:5px 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:black;
+    color: whitesmoke;
+    font-size: large;
+    letter-spacing: 2px;
+    
+    
+
+}
+
+dt{
+    font-size: medium;
+    
+}
+
+dt:hover{
+    border: 3px solid red;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.categories{
+    padding: 70px 10px;
+    margin: 5px 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    content-visibility:hidden;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-size: larger;
+}
+
+#clothing:hover,#food:hover,#groceries:hover,#footware:hover,#beauty_products:hover,#home_appliance:hover,
+#meat_fish:hover,#vegetables_fruits:hover{
+    background: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    color:whitesmoke;
+    background-color: black;
+    text-transform: capitalize;
+    content-visibility:initial;
+
+    
+}
+
+#clothing{
+    font-weight:700;
+    background-image: url(clothing.jpg);
+    text-transform: capitalize;
+    width:160px;
+    height:200px;
+    background-color:rgba(14, 13, 13, 0.959);
+     
+    
+}
+
+#food{
+    color: whitesmoke;
+    font-weight:700;
+    background-image: url(food.jpg);
+    text-transform: capitalize;
+    width:160px;
+    height:200px;
+    background-color: rgba(14, 13, 13, 0.959);
+     
+}
+
+#groceries{
+    color: whitesmoke;
+    font-weight:700;
+    background-image: url(groceries.jpg);
+    text-transform: capitalize;
+    width:160px;
+    height:200px;
+    background-color: rgba(14, 13, 13, 0.959);
+     
+}
+
+#footware{
+    color: whitesmoke;
+    font-weight:700;
+    background-image: url(footware.jpg);
+    text-transform: capitalize;
+    width:160px;
+    height:200px;
+    background-color: rgba(14, 13, 13, 0.959);
+     
+}
+
+#beauty_products{
+    color: whitesmoke;
+    font-weight:700;
+    background-image: url(beauty_products.jpg);
+    text-transform: capitalize;
+    width:160px;
+    height:200px;
+    background-color: rgba(14, 13, 13, 0.959);
+     
+}
+
+#home_appliance{
+    color: whitesmoke;
+    font-weight:700;
+    background-image: url(home_appliance.jpg);
+    text-transform: capitalize;
+    width:160px;
+    height:200px;
+    background-color: rgba(14, 13, 13, 0.959);
+     
+}
+
+#meat_fish{
+    color: whitesmoke;
+    font-weight:700;
+    background-image: url(meat_fish.jpg);
+    text-transform: capitalize;
+    width:160px;
+    height:200px;
+    background-color: rgba(14, 13, 13, 0.959);
+     
+}
+
+#vegetables_fruits{
+    color: whitesmoke;
+    font-weight:700;
+    background-image: url(vegetables_fruits.jpg);
+    text-transform: capitalize;
+    width:160px;
+    height:200px;
+    background-color: rgba(14, 13, 13, 0.959);
+     
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
